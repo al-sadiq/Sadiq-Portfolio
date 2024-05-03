@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4c4ad;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKWHC2S7n5AQ_xYvzLNHQWGZSsyR72LPJCyfxZQDkgsvYMmmQU9dl7sY1Z5_ttASvMDV3Cp9T-QdNDO1FD_36mIGovTBAqHvzBFJEg5dtaXQU8DrOLRr4uO2UdvAGdz0AsHW4uIm-bOZlAYkDNOkWLhWt--QpRoBk2pTyZzkyT3UckHvt_qSs7hnv8qg/s1920/30042022-mMINIMALIST-LANDSCAPE.png'); 
+}
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+* {
+    animation: zoomIn 0.8s ease forwards;
+}
+
+
+header {
+    background-color: #0c1f29;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: monospace;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+}
+
+p {
+    margin-bottom: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.social-media {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media li:last-child {
+    margin-right: 0;
+}
+
+.social-media li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #1b2330;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: fantasy;
+}
+
+.social-media li a:hover {
+    background-color: #aa9595; 
+}
+
+.back-button {
+    margin: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #03145f;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Cormorant Infant', serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.back-button:hover {
+    background-color: #159ea3; 
+}

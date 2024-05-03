@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css"> 
+
+</head>
+<body>
+ 
+    <div class="container">
+        <div class="profile-image">
+            <img src="https://ih1.redbubble.net/image.5290356799.6538/raf,360x360,075,t,fafafa:ca443f4786.jpg" alt="Profile Image">
+
+        </div>
+        <div class="profile-content">
+            
+               <h1> Sadiq Roobleh</h1>
+            <div class="text-container">
+                <h3 class="animated-text">I am a web developer passionate about creating minimalist and clean designs. I have experience in HTML, CSS, JavaScript, and various web development frameworks. My goal is to create user-friendly and visually appealing websites that meet the needs of my clients.</h3>
+            </div>
+        
+            
+            <button onclick="showHobbies()">Click to view my hobbies</button>
+            <p class="hobbies-text" id="hobbiesText">My hobbies are:<br> Ping Pong, Coding, Math, Basketball</p>
+            <button onclick="goBack()">Back</button> 
+
+            <script>
+                function goBack() {
+                    window.location.href = "./index.html"; 
+                }
+            </script>
+            <script>
+                function showHobbies() {
+                    var hobbiesText = document.getElementById("hobbiesText");
+                    hobbiesText.style.display = "block";
+                }
+            </script>
+<a href="./Sadiq Roobleh (Resume).pdf" target="_blank" class="button">Resume</a>
+        </div>
+    </div>
+</body>
+</html>

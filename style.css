@@ -1,0 +1,152 @@
+.cormorant-infant-light {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.cormorant-infant-regular {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cormorant-infant-medium {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cormorant-infant-semibold {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.cormorant-infant-bold {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cormorant-infant-light-italic {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.cormorant-infant-regular-italic {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.cormorant-infant-medium-italic {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.cormorant-infant-semibold-italic {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.cormorant-infant-bold-italic {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.glowing-text {
+text-shadow: 0 0 50px rgb(0, 255, 21); 
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(138, 129, 129);
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('https://miro.medium.com/v2/resize:fit:2000/1*c4eaWtGNRJvpmn9atyclqA.jpeg'); 
+      background-size: cover;
+  }
+  
+  .content {
+    text-align: center;
+    opacity: 0;
+    transition: opacity 3.0s ease;
+    border: 2px solid #443030;
+    background-color: rgba(182, 138, 138, 0.3);
+    padding: 30px;
+    animation: fadeInContent 2s ease forwards;
+  }
+  
+  .content.show {
+    opacity: 1;
+  }
+  
+  .content:hover {
+    transform: scale(1.1); 
+  }
+
+  .content {
+    text-align: center;
+    opacity: 0;
+    transition: opacity 3.0s ease, transform 0.3s ease; 
+    border: 2px solid #443030;
+    background-color: rgba(182, 138, 138, 0.3);
+    padding: 30px;
+    animation: fadeInContent 2s ease forwards;
+}
+
+.content.show {
+    opacity: 1;
+}
+
+.content:hover {
+    transform: scale(1.1); 
+}
+
+.buttons button,
+.buttons a {
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #332921;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.8s ease;
+}
+
+.buttons button:hover,
+.buttons a:hover {
+    background-color: #976969;
+}
+
+.buttons button:hover {
+    background-color: #976969;
+}
+
+.page {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+h1,
+h2,
+p {
+    color: rgb(213, 223, 226);
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
+    <script src="./script.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h1 class="glowing-text">Welcome to the Portfolio of</h1>
+        <h2 class="glowing-text">Sadiq Roobleh</h2>
+        <p>___________________________________________</p>
+        <div class="buttons">
+            <a target="_blank" href="./about.html"> About</a>
+            <a target="_blank" href="./Projects.html">Projects</a>
+            <a target="_blank" href="./Contact.html">Contact</a>
+        </div>
+    </div>
+
+    <div id="aboutPage" class="page hidden">
+        <h2>About Me</h2>
+        <p>I am a web developer passionate about creating minimalist and clean designs.</p>
+        <button onclick="goBack()">Back</button>
+    </div>
+
+    <div id="projectsPage" class="page hidden">
+        <h2>Projects</h2>
+        <p>Here are some of my recent projects:</p>
+        <ul>
+            <li>Project 1</li>
+            <li>Project 2</li>
+            <li>Project 3</li>
+        </ul>
+        <button onclick="openHome()">Home</button>
+    </div>
+
+    <div id="contactPage" class="page hidden">
+        <h2>Contact Me</h2>
+        <p>You can reach out to me via email at example@example.com</p>
+        <button onclick="openHome()">Home</button>
+    </div>
+</body>
+</html>
